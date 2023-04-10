@@ -29,9 +29,9 @@ ArrowSquareDown, SearchNormal, I3Square
 import { Bar, Doughnut, Radar } from 'react-chartjs-2';
 import styles from '@/styles/Home.module.css';
 import logo from '@/public/logo.svg';
-import profilePicture from '@/public/pfp.jpg';
-import avatar1 from '@/public/avatar1.jpg';
-import avatar2 from '@/public/avatar2.jpg';
+import profilePicture from '@/public/jacob-frost.jpg';
+import avatar1 from '@/public/alex-morgan.jpg';
+import avatar2 from '@/public/mujo-prosper.jpg';
 
 const sulphurPoint = Sulphur_Point({ subsets: ['latin'], weight: ['700', '400'] });
 const roboto = Roboto({ subsets: ['latin'], weight: ['700'] })
@@ -409,6 +409,23 @@ export default function Home() {
                   </div>
                   <div>Upcoming Task - <b>Create a campaign for designers</b> due on <b>02/04/2023</b>.</div>
                 </div>
+
+                {/* <div className={styles.activity}>
+                  <Image src={avatar1} alt='Avatar 1' />
+                  <div><b>Alex Morgan</b> sent you a <b>message</b>.</div>
+                </div>
+
+                <div className={styles.activity}>
+                  <Image src={avatar2} alt='Avatar 2' />
+                  <div><b>Mujo Prosper</b> sent you a <b>connection request</b>.</div>
+                </div>
+
+                <div className={styles.activity}>
+                  <div className={styles.activityIcon}>
+                    <I3Square size={18} />
+                  </div>
+                  <div>Upcoming Task - <b>Create a campaign for designers</b> due on <b>02/04/2023</b>.</div>
+                </div> */}
               </div>
             </div>
           </div>
