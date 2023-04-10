@@ -409,23 +409,7 @@ export default function Home() {
                   </div>
                   <div>Upcoming Task - <b>Create a campaign for designers</b> due on <b>02/04/2023</b>.</div>
                 </div>
-
-                {/* <div className={styles.activity}>
-                  <Image src={avatar1} alt='Avatar 1' />
-                  <div><b>Alex Morgan</b> sent you a <b>message</b>.</div>
-                </div>
-
-                <div className={styles.activity}>
-                  <Image src={avatar2} alt='Avatar 2' />
-                  <div><b>Mujo Prosper</b> sent you a <b>connection request</b>.</div>
-                </div>
-
-                <div className={styles.activity}>
-                  <div className={styles.activityIcon}>
-                    <I3Square size={18} />
-                  </div>
-                  <div>Upcoming Task - <b>Create a campaign for designers</b> due on <b>02/04/2023</b>.</div>
-                </div> */}
+                
               </div>
             </div>
           </div>
