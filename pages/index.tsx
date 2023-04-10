@@ -54,7 +54,7 @@ Filler
 export default function Home() {
   return <>
     <Head>
-      <title>Mockup</title>
+      <title>Campaign Dashboard</title>
       <meta name="viewport" content="width=device-width, initial-scale=2.0" />
     </Head>
 
@@ -409,7 +409,7 @@ export default function Home() {
                   </div>
                   <div>Upcoming Task - <b>Create a campaign for designers</b> due on <b>02/04/2023</b>.</div>
                 </div>
-                
+
               </div>
             </div>
           </div>
